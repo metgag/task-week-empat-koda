@@ -1,0 +1,19 @@
+.grid-catur {
+    display: grid;
+    grid-template-columns: repeat(8, 2rem);
+    background-color: aqua;
+    padding: 1rem;
+    width: min-content;
+
+    .square {
+        height: 2rem;
+    }
+
+    .blk {
+        background-color: black;
+    }
+
+    .wht {
+        background-color: whitesmoke;
+    }
+}
