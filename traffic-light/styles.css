@@ -1,0 +1,32 @@
+/* no. 1 traffic light */
+#traf-light {
+    background-color: rgb(11, 11, 11);
+    width: min-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    .light {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin-block: .5rem;
+    }
+
+    .rd-light {
+        background-color: red;
+        filter: brightness(20%);
+    }
+
+    .gr-light {
+        background-color: green;
+        filter: brightness(20%);
+    }
+
+    .yl-light {
+        background-color: yellow;
+        filter: brightness(20%);
+    }
+
+    .on {
+        filter: none;
+    }
+}
